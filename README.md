@@ -1,2 +1,2 @@
-# Personal-Project
-Create personal project for learning
+# Doc Automation-Project
+Create project for learning
