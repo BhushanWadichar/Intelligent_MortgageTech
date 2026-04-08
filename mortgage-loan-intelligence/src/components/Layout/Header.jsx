@@ -7,7 +7,8 @@ const PAGE_TITLES = {
   '/pipeline':  { title: 'Loan Pipeline',        sub: 'Track loan processing stages in real time'        },
   '/loans':     { title: 'Loan Status',          sub: 'Manage and filter all loan records'               },
   '/analytics': { title: 'Analytics',            sub: 'Reporting, trends, and compliance metrics'        },
-  '/upload':    { title: 'Upload Loan Package',  sub: 'Async bulk ingestion — upload ZIP packages'       },
+  '/upload':    { title: 'Upload Loan Package',     sub: 'Async bulk ingestion — upload ZIP packages'              },
+  '/doc-intel': { title: 'Document Intelligence',  sub: 'AI classification, extraction and field-level review'   },
 };
 
 export default function Header() {

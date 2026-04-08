@@ -6,6 +6,7 @@ import PipelinePage from './pages/PipelinePage';
 import LoanStatusPage from './pages/LoanStatusPage';
 import AnalyticsPage from './pages/AnalyticsPage';
 import UploadPage from './pages/UploadPage';
+import DocumentIntelligencePage from './pages/DocumentIntelligencePage';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
             <Route path="loans" element={<LoanStatusPage />} />
             <Route path="analytics" element={<AnalyticsPage />} />
             <Route path="upload"    element={<UploadPage />} />
+            <Route path="doc-intel" element={<DocumentIntelligencePage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
         </Routes>

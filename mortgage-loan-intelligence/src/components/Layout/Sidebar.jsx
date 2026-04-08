@@ -1,16 +1,17 @@
 import { NavLink } from 'react-router-dom';
 import {
   LayoutDashboard, GitBranch, ClipboardList, BarChart3,
-  Building2, ChevronLeft, ChevronRight, UploadCloud
+  Building2, ChevronLeft, ChevronRight, UploadCloud, BrainCircuit
 } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 
 const NAV = [
-  { to: '/',          icon: LayoutDashboard, label: 'Dashboard',          end: true },
-  { to: '/pipeline',  icon: GitBranch,       label: 'Loan Pipeline'               },
-  { to: '/loans',     icon: ClipboardList,   label: 'Loan Status'                 },
-  { to: '/analytics', icon: BarChart3,       label: 'Analytics'                   },
-  { to: '/upload',    icon: UploadCloud,     label: 'Upload Loan Package'         },
+  { to: '/',          icon: LayoutDashboard, label: 'Dashboard',             end: true },
+  { to: '/pipeline',  icon: GitBranch,       label: 'Loan Pipeline'                  },
+  { to: '/loans',     icon: ClipboardList,   label: 'Loan Status'                    },
+  { to: '/analytics', icon: BarChart3,       label: 'Analytics'                      },
+  { to: '/upload',    icon: UploadCloud,     label: 'Upload Loan Package'            },
+  { to: '/doc-intel', icon: BrainCircuit,    label: 'Document Intelligence'          },
 ];
 
 export default function Sidebar() {
